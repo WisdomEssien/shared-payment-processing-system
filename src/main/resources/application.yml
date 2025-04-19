@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: shared-payment-processing-system
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+logging:
+  file:
+    name: logs/application.log
+
+  logback:
+    rollingpolicy:
+      max-history: 60
+      max-file-size: 200MB
+
+  level:
+    org.springframework.web: INFO
+    org.hibernate: ERROR
+    com.assessment.sharedpayment: INFO
