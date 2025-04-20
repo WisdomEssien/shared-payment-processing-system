@@ -20,5 +20,6 @@ logging:
 
   level:
     org.springframework.web: INFO
+    org.springframework.security: DEBUG
     org.hibernate: ERROR
     com.assessment.sharedpayment: INFO
