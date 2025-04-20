@@ -17,3 +17,5 @@ spring:
     console.settings.trace: false
     console.settings.web-allow-others: false
 
+app-props:
+  dynamic-rate:

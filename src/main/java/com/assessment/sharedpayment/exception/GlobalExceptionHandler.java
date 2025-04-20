@@ -33,7 +33,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(SharedPaymentException.class)
     public final ResponseEntity<Object> handleServiceException(SharedPaymentException ex, WebRequest request) {
-        log.error("BookStoreException :: ", ex);
+        log.error("SharedPaymentException :: ", ex);
         return ResponseEntity.ok(new BaseStandardResponse<>(ex.getResponseCode()));
     }
 

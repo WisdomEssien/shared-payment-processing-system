@@ -1,6 +1,6 @@
 package com.assessment.sharedpayment.dto.response;
 
-import com.assessment.bookstore.util.ResponseCode;
+import com.assessment.sharedpayment.util.ResponseCode;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import lombok.EqualsAndHashCode;
@@ -10,7 +10,8 @@ import lombok.ToString;
 
 import java.util.Collection;
 
-import static com.assessment.bookstore.util.ResponseCode.SUCCESS;
+import static com.assessment.sharedpayment.util.ResponseCode.SUCCESS;
+
 
 @Getter
 @Setter

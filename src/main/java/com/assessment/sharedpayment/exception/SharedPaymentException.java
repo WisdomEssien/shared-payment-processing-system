@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class SharedPaymentException extends Exception {
+public class SharedPaymentException extends RuntimeException {
 
     private ResponseCode responseCode;
 

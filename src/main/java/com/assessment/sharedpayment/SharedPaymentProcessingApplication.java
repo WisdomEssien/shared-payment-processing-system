@@ -3,13 +3,13 @@ package com.assessment.sharedpayment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+//import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
+//import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Slf4j
-@EnableWebSecurity
-@EnableMethodSecurity
+//@EnableWebSecurity
+//@EnableMethodSecurity
 @EnableTransactionManagement
 @SpringBootApplication
 public class SharedPaymentProcessingApplication {
