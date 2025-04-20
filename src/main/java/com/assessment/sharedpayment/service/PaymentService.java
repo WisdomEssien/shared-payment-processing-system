@@ -79,7 +79,7 @@ public class PaymentService {
         }
 
         // Fee or Discount Logic
-        double adjustedAmount = nonNull(appProperty.getDynamicRate())
+        Double adjustedAmount = nonNull(appProperty.getDynamicRate())
                 ? paymentAmount * (1 + appProperty.getDynamicRate())
                 : paymentAmount;
         log.info("dynamicRate = {}", appProperty.getDynamicRate());
